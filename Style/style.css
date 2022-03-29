@@ -1,0 +1,52 @@
+
+:root {
+    --height: 312px;
+}
+
+body{
+    font-family: 'Lexend Tera', sans-serif;
+    font-family: 'Mitr', sans-serif;
+    scroll-behavior: smooth;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Lexend Tera', sans-serif;
+}
+
+.carousel-item img{
+    max-height: 330px;
+    object-fit: cover;
+
+}
+
+ .card .card-body img{
+     max-height: 340px;
+     object-fit: cover;
+}
+
+.logo{
+    background-color: white;
+    border-radius: 100%;
+    padding: 3px
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #e5e5f7;
+}
+
+footer a:hover{
+    color: #F7F5F2;
+}
+
+.logo-footer{
+    background-color: white;
+    padding: 30px;
+    border-radius: 50%;
+}
+
+.accordion-button.collapsed {
+    color: white;
+    background-color: #92a8d1;
+}
